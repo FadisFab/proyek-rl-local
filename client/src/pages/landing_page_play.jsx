@@ -17,7 +17,7 @@ function Landing_page_play() {
           <br></br>
           <h5>Menggunakan teknologi paling canggih dari riset tingkat tinggi oleh DeepMind</h5>
           <h5>Menciptakan AI yang lebih pintar dari manusia (walaupun sama kita sih kayaknya gak).</h5>
-          <button onClick={() => setToken(true)}>PLAY</button>
+          <Button className="btn btn-primary" variant="dark" onClick={() => setToken(true)}>PLAY</Button>
 
           <Modal open={theToken} onClose={() => setToken(false)}>
             <form>
